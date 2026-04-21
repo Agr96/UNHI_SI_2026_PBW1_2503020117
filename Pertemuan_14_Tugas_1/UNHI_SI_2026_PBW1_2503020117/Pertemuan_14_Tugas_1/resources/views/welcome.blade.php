@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew CC Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="user-front/style.css">
+</head>
+
+
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+    <div class="container">
+        <a class="navbar-brand" href="#"><h1 class="navbar-title">Andrew CC</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#footer">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom" href="#footer">Whatsapp</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section id="home" class="hero-section">
+    <div class="hero-carousel-container">
+        <button class="carousel-arrow carousel-arrow-left" id="arrowLeft">
+            <span>&lt;</span>
+        </button>
+
+        <div class="carousel-wrapper">
+            <div class="carousel-track" id="carouselTrack">
+                <div class="carousel-slide">
+                    <img src="user-front/assets/images-compressed/sesetan.jpg" alt="Image 1" class="carousel-image">
+                </div>
+                <div class="carousel-slide">
+                    <img src="user-front/assets/images-compressed/buyan.jpg" alt="Image 2" class="carousel-image">
+                </div>
+                <div class="carousel-slide">
+                    <img src="user-front/assets/images-compressed/petulu.jpg" alt="Image 3" class="carousel-image">
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-arrow carousel-arrow-right" id="arrowRight">
+            <span>&gt;</span>
+        </button>
+
+        <div class="hero-text-overlay">
+            <h1 class="hero-welcome">SELAMAT DATANG</h1>
+            <h2 class="hero-welcome">Di Website saya andrewCC.com untuk memperkenalkan diri saya</h2>
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="user-front/assets/images-compressed/andre.jpg" alt="Profile Photo">
+                </div>
+                <h2 class="profile-name">ANDREW CC</h2>
+            </div>
+            <button class="btn btn-primary btn-lg hero-btn" id="portfolioBtn">Lihat Portofolio saya</button>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="service-section">
+    <div class="container">
+        <h2 class="service-heading">Perjalanan Karier saya</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card service-card">
+                    <div class="card-body text-center">
+                        <div class="service-card-image">
+                            <img src="user-front/assets/images-compressed/1.png" alt="Frontend">
+                        </div>
+                        <h5 class="card-title service-card-title">BRIGHTON</h5>
+                        <p class="card-text service-card-text">Brighton Property bergerak di bidang properti dengan fokus pada pengembangan dan manajemen properti seluruh indonesia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card service-card">
+                    <div class="card-body text-center">
+                        <div class="service-card-image">
+                            <img src="user-front/assets/images-compressed/2.png" alt="Backend">
+                        </div>
+                        <h5 class="card-title service-card-title">AERORENTAL BALI</h5>
+                        <p class="card-text service-card-text">Aerorental Bali bergerak di bidang penyewaan UAV dengan fokus pada layanan pelanggan yang berkualitas tinggi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card service-card">
+                    <div class="card-body text-center">
+                        <div class="service-card-image">
+                            <img src="user-front/assets/images-compressed/3.png" alt="DevOps">
+                        </div>
+                        <h5 class="card-title service-card-title">LARAVEL</h5>
+                        <p class="card-text service-card-text">Laravel adalah framework PHP yang dirancang untuk pengembangan aplikasi web yang sangat populer dan paling stabil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="user-front/script.js"></script>
+</body>
+
+<footer id="footer" class="footer-section bg-dark text-white py-4">
+    <div class="container text-center">
+        <h5>Andrew CC</h5>
+        <p class="mb-2">
+            Website Portofolio Pribadi
+        </p>
+
+        <div class="footer-links mb-3">
+            <a href="#home" class="text-white mx-2">Home</a>
+            <a href="#about" class="text-white mx-2">About</a>
+        </div>
+
+        <p class="mb-0">
+            &copy; 2026 Andrew CC. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+
+</html>
