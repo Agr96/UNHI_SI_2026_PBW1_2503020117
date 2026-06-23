@@ -72,6 +72,7 @@
                 <h2 class="profile-name">ANDREW CC</h2>
             </div>
             <button class="btn btn-primary btn-lg hero-btn" id="portfolioBtn">Lihat Portofolio saya</button>
+            <a class="btn btn-primary btn-lg hero-btn mt-3" id="portfolioBtn" href="{{ route('login') }}">Login</a>
         </div>
     </div>
 </section>
